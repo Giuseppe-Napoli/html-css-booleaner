@@ -1,19 +1,17 @@
 .first{
   background-image: url("pattern.png");
   background-color: rgb(78, 160, 255);
-  
 }
 
 #logo{
   width: 250px;
-  margin-left: 20%;
+  margin-left: 22%;
   height: 150px;
-  
 }
 
-  main{
+  main, footer{
     margin: auto;
-    width: 60%;
+    width: 55%;
   }
 
   #title{
@@ -39,4 +37,61 @@
   .knight p{
     font-size: 11px;
     margin-top: 0;
+  }
+
+  .text span{
+    background-color: yellow;
+  }
+
+  .list ul{
+    padding-left: 15px;       
+    margin-left: 0;
+  }
+
+  table{
+    border-collapse: collapse;
+  }
+
+  thead{
+    background-color: rgb(32, 169, 229);
+    color: white;
+  }
+
+  .colonna{
+    width: 20%;
+    text-align: left;
+  }
+
+  .terza-colonna{
+    width: 55%;
+    text-align: left;
+  }
+
+  .dispari{
+    background-color: rgb(177, 229, 242);
+  }
+
+  .monitor, .graphic{
+    height: 160px;
+    width: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .monitor{
+    background-image: url(monitor.jpg);
+  }
+
+  .graphic{
+    background-image: url(graph.jpg);
+  }
+
+  footer p{
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+  }
+
+  footer h3{
+    font-size: 18px;
+    color: rgb(128, 128, 128);
   }
